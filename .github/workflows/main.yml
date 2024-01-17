@@ -25,4 +25,3 @@ jobs:
         script: |
           cd /home/ubuntu/trial_repo
           git pull origin main
-          git status
