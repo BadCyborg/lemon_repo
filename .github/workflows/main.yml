@@ -23,5 +23,5 @@ jobs:
         key: ${{ secrets.EC2_PRIVATE_KEY }}
         port: 22
         script: |
-          cd /home/ubuntu/trial_repo
+          cd /home/ubuntu/lemon_repo
           git pull origin main
